@@ -1,0 +1,17 @@
+{
+  "name": "romand-shop",
+  "version": "1.0.0",
+  "description": "Cửa hàng son Romand - bán hàng online (Node.js + SQLite)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node scripts/seed.js",
+    "images": "node scripts/gen-images.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
